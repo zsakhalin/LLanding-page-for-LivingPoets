@@ -73,7 +73,9 @@ p {
 }
 
 .bg-primary {
-    background-color: #111; /*black*/
+    background-color: white; /*black*/
+    list-style-type:none;
+    color: black;
 }
 
 .bg-dark {
@@ -87,7 +89,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(245,245,245,0.7);
+    color: black;
 }
 .text-caps{
     text-transform: uppercase;
@@ -252,7 +254,9 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    /*background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');*/
+    /*background-image: url('https://drive.google.com/open?id=1pHXRUGq-M3BMxo1NoNLqs-r0DgtocW9C');*/
+    background-image: url('img/header-hands.JPG');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -301,7 +305,7 @@ footer {
 
 @media(min-width:768px) {
     .icon-lg {
-        font-size: 80px;
+        font-size: 60px;
     }
     
     header {

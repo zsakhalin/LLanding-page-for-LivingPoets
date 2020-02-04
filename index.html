@@ -17,7 +17,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
@@ -39,22 +39,16 @@
                     <li>
                         <a class="page-scroll" href="#three">Инициативы</a>
                     </li>
-<!--                     <li>
-                        <a class="page-scroll" href="#four">Features</a>
-                    </li> -->
                     <li>
                         <a class="page-scroll" href="#last">Контакты</a>
                     </li>
                 </ul>
-<!--                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About</a>
-                    </li>
-                </ul> -->
+
             </div>
         </div>
     </nav>
     <header id="first">
+        <div style="position: absolute; width:100%; height:100%; background:#000; opacity:0.5;"></div>
         <div class="header-content">
             <div class="inner">
                 <h1 class="cursive text-caps">Живые поэты</h1>
@@ -65,9 +59,6 @@
                 <a rel="nofollow" href="" title="VK"><i class="fab fa-instagram size-plus"></i></a>
             </div>
         </div>
-<!--         <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
-            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video> -->
     </header>
     <section class="bg-primary" id="zero">
         <div class="container">
@@ -76,52 +67,87 @@
             </div>
         </div>
     </section>
-    <section class="bg-primary" id="one">
+    <section class="bg-primary text-caps" id="one">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-                    <h2 class="margin-top-0 text-primary">Built On The Bootstrap Grid</h2>
+                    <h2 class="margin-top-0 text-primary">мы — редакция проекта:</h2>
                     <br>
                     <p class="text-faded">
-                        МНОГИЕ ДУМАЮТ, ЧТО ПОЭЗИЯ МЕРТВА, ЧТО СТИХИ НИКОМУ НЕ НУЖНЫ, ЧТО СОВРЕМЕННИКОВ НЕ ЗНАЮТ, НЕ ЧИТАЮТ И НЕ ИЗДАЮТ. ЖИВЫЕ ПОЭТЫ ДОКАЗЫВАЮТ ОБРАТНОЕ: ПОЭЗИЯ — АКТУАЛЬНЫЙ ЯЗЫК. РИФМА — ФОРМА ВОСПРИЯТИЯ МИРА. НАСТОЯЩИЕ ПОЭТЫ ВОСТРЕБОВАНЫ. 
-
-                    </p>
-                    <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                        <ul style="list-style-type: none;">
+                            <li>публикуем стихи современников в книгах, сми и соцсетях</li>
+                            <li>проводим мероприятия, от мастер-классов до фестивалей</li>
+                            <li>реализуем редакторские и партнерские спецпроекты</li>
+                        </ul>
+                    <!-- </p> -->
+                    <!-- <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a> -->
                 </div>
             </div>
         </div>
     </section>
-    <section id="two">
+    <section id="two text-caps">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="margin-top-0 text-primary">Flexible Layouts</h2>
+                    <h2 class="margin-top-0 text-primary">250 авторов из 80 городов 15 стран</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 text-center">
+                <div class="col-lg-3 col-md-3 text-center">
                     <div class="feature">
-                        <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Responsive</h3>
-                        <p class="text-muted">Your site looks good everywhere</p>
+                        <i class="far fa-comments icon-lg" data-wow-delay=".3s"></i>
+                        <h3>600</h3>
+                        <p class="text-muted">публикаций о проекте в сми</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center">
+                <div class="col-lg-3 col-md-3 text-center">
                     <div class="feature">
-                        <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
-                        <h3>Customizable</h3>
-                        <p class="text-muted">Easy to theme and customize with SASS</p>
+                        <!-- <i class="fas fa-edit" data-wow-delay=".2s"></i> -->
+                        <!-- <i class="fas fa-download" data-wow-delay=".2s"></i> -->
+                        <i class="fas fa-feather-alt icon-lg" data-wow-delay=".2s"></i>
+                        <h3>20 000</h3>
+                        <p class="text-muted">заявок на участие</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center">
+                <div class="col-lg-3 col-md-3 text-center">
+                    <div class="feature">
+                        <i class="fas fa-chart-line icon-lg" data-wow-delay=".3s"></i>
+                        <h3>50 000</h3>
+                        <p class="text-muted">читателей в социальных сетях </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 text-center">
                     <div class="feature">
                         <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Consistent</h3>
-                        <p class="text-muted">A mature, well-tested, stable codebase</p>
+                        <h3>180 000</h3>
+                        <p class="text-muted">просмотров ежемесячно</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-primary text-caps" id="one">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+                    <h2 class="margin-top-0 text-primary">многие думают, что поэзия мертва,</h2>
+                    <br>
+                    <p class="text-faded">
+                        что стихи никому не нужны,
+                        что современников не знают, не читают и не издают.
+                        живые поэты доказывают обратное:
+                        поэзия — актуальный язык. рифма — форма восприятия мира.
+                        настоящие поэты востребованы. 
+<!--                         <ul>
+                            <li>публикуем стихи современников в книгах, сми и соцсетях</li>
+                            <li>проводим мероприятия, от мастер-классов до фестивалей</li>
+                            <li>реализуем редакторские и партнерские спецпроекты</li>
+                        </ul> -->
+                    </p>
+                    <!-- <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a> -->
                 </div>
             </div>
         </div>
@@ -333,15 +359,16 @@
 
         </div>
     </section>
-    <section class="container-fluid" id="four">
+<!-- стать автором проекта -->
+    <section class="container-fluid text-caps" id="four">
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-                <h2 class="text-center text-primary">Features</h2>
+                <h2 class="text-center text-primary">стать автором проекта</h2>
                 <hr>
                 <div class="media wow fadeInRight">
-                    <h3>Simple</h3>
+                    <h3>Мы публикуем стихи</h3>
                     <div class="media-body media-middle">
-                        <p>What could be easier? Get started fast with this landing page starter theme.</p>
+                        <p>наших авторов в социальных сетях, а их интервью и комментарии - в СМИ, выпускаем книги, помогаем с редактурой, организацией и информационной поддержкой концертов.</p>
                     </div>
                     <div class="media-right">
                         <i class="icon-lg ion-ios-bolt-outline"></i>
@@ -349,25 +376,26 @@
                 </div>
                 <hr>
                 <div class="media wow fadeIn">
-                    <h3>Free</h3>
+                    <h3><a href="https://vk.com/topic-33064905_37679954">Конституция</a></h3>
                     <div class="media-left">
                         <a href="#alertModal" data-toggle="modal" data-target="#alertModal"><i class="icon-lg ion-ios-cloud-download-outline"></i></a>
                     </div>
                     <div class="media-body media-middle">
-                        <p>Yes, please. Grab it for yourself, and make something awesome with this.</p>
+                        <p><a href="https://vk.com/topic-33064905_37679954" style="color: white;">У проекта есть конституция и критерии отбора. Прочтите ее перед тем, как высылать подборку.</a></p>
                     </div>
                 </div>
                 <hr>
                 <div class="media wow fadeInRight">
-                    <h3>Unique</h3>
+                    <h3>Заявка</h3>
                     <div class="media-body media-middle">
-                        <p>Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
+                        <p>Ждем ваших писем - будем вместе делать проект "Живые поэты"!</p>
                     </div>
                     <div class="media-right">
                         <i class="icon-lg ion-ios-snowy"></i>
                     </div>
+                    <a href="#application"><button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> Отправить </button></a>
                 </div>
-                <hr>
+<!--                 <hr>
                 <div class="media wow fadeIn">
                     <h3>Popular</h3>
                     <div class="media-left">
@@ -386,7 +414,47 @@
                     <div class="media-right">
                         <i class="icon-lg ion-ios-flask-outline"></i>
                     </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+<!-- стать участником команды -->
+    <section class="container-fluid text-caps" id="four">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <h2 class="text-center text-primary">стать участником команды</h2>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Живые поэты</h3>
+                    <div class="media-body media-middle">
+                        <p>независимый и благотворительный проект, который существует только за счет веры в необходимость своего дела. На нашу редакционную политику не оказывает влияния ни одна финансовая, политическая или идеологическая структура. Стать автором «ЖЫ» на коммерческой основе невозможно. Мы открыты к сотрудничеству и рады всем, кто хочет развивать проект вместе с нами.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-lg ion-ios-bolt-outline"></i>
+                    </div>
                 </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <h3>Кто нам нужен</h3>
+                    <div class="media-left">
+                        <i class="icon-lg ion-ios-cloud-download-outline"></i>
+                    </div>
+                    <div class="media-body media-middle">
+                        <p>В ближайшее время мы планируем начать работу по нескольким новым направлениям, поэтому ищем дизайнеров, специалистов по продвижению в СМИ и социальных сетях (в том числе - YouTube), таргетологов и композиторов, которые пишут электронную музыку, операторов и монтажеров видео.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Заявка</h3>
+                    <div class="media-body media-middle">
+                        <p>Ждем ваших писем - будем вместе делать проект "Живые поэты"!</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-lg ion-ios-snowy"></i>
+                    </div>
+                    <a href="#application"><button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> Отправить </button></a>
+                </div>
+
             </div>
         </div>
     </section>
@@ -453,7 +521,7 @@
             </div>
         </div>
     </aside>
-    <section id="last">
+    <section id="application">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
