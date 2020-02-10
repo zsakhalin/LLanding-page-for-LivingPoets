@@ -4,11 +4,11 @@
 
 @font-face {
 font-family: 'proxima';
-src: url("fonts/PROXIMA_NOVA_CONDENSED_REGULAR.OTF") format("opentype");
+src: url("../fonts/PROXIMA_NOVA_CONDENSED_REGULAR.OTF") format("opentype");
 }
 @font-face {
 font-family: 'YouMurderer';
-src: url("fonts/ljk_YouMurderer.otf") format("opentype");
+src: url("../fonts/ljk_YouMurderer.otf") format("opentype");
 }
 
 html,
@@ -185,7 +185,12 @@ footer {
     background-color: transparent;
 }
 
-
+@media(max-width: 425px){
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
@@ -242,8 +247,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #a30606
-;
+        color: #a30606;
     }
 }
 
@@ -256,7 +260,7 @@ header {
     background-color: #c9c9c9;
     /*background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');*/
     /*background-image: url('https://drive.google.com/open?id=1pHXRUGq-M3BMxo1NoNLqs-r0DgtocW9C');*/
-    background-image: url('img/header-hands.JPG');
+    background-image: url('../assets/header-hands.JPG');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -301,6 +305,10 @@ header .header-content .inner p {
 
 footer {
     background-color:#2d2d2d;
+}
+.footer-social{
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media(min-width:768px) {
